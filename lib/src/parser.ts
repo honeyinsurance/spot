@@ -40,6 +40,7 @@ function createProject(): Project {
     moduleResolution: ts.ModuleResolutionKind.NodeJs,
     experimentalDecorators: true,
     baseUrl: "./",
+    types: ["node"],
     paths: {
       "@airtasker/spot": [path.join(__dirname, "../lib")]
     }
